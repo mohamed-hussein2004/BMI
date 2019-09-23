@@ -13,8 +13,11 @@ public class Main {
 
 
 
+        System.out.println("what is your height in inches?");
+        height = person.nextInt();
+        System.out.println("what is your weight?");
+        weight = person.nextInt();
 
-        
 
 
 
