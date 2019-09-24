@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         int inches;
         int pounds;
-        double inchesToMeaters = 0.0254, poundsToKg = 0.453592,meters,kg,BMI;
+        double inchesToMeaters = 0.0254, poundsToKg = 0.453592,meters,kg,BMI,meters2;
 
 
         Scanner person;
@@ -22,7 +22,7 @@ public class Main {
         pounds = person.nextInt();
         kg =pounds*.453592;
         meters =inches*.0254;
-        System.out.print("");
+        meters2 = meters*meters;
 
 
 
