@@ -23,6 +23,8 @@ public class Main {
         kg =pounds*.453592;
         meters =inches*.0254;
         meters2 = meters*meters;
+        System.out.print("your BMI is "+ kg/meters2);
+
 
 
 
