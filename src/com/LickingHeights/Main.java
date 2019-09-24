@@ -5,8 +5,11 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        int height;
-        int weight;
+        int inches;
+        int pounds;
+        double inchesToMeaters = 0.0254, poundsToKg = 0.453592,meters,kg,BMI;
+
+
         Scanner person;
         person = new Scanner(System.in);
 
@@ -14,9 +17,16 @@ public class Main {
 
 
         System.out.println("what is your height in inches?");
-        height = person.nextInt();
-        System.out.println("what is your weight?");
-        weight = person.nextInt();
+        inches = person.nextInt();
+        System.out.println("what is your weight in pounds?");
+        pounds = person.nextInt();
+        kg =pounds*.453592;
+        meters =inches*.0254;
+        System.out.print("");
+
+
+
+
 
 
 
